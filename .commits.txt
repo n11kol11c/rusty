@@ -1,1 +1,1 @@
-refactor: simplify configuration loading
+fix: correct hex conversion
