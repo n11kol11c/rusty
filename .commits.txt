@@ -1,1 +1,1 @@
-docs: clarify parameter description
+test: verify boundary conditions
