@@ -1,1 +1,1 @@
-refactor: move utility to shared module
+fix: correct bitwise operation
