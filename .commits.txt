@@ -1,1 +1,1 @@
-test: verify boundary conditions
+fix: prevent potential index error
