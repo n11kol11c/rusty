@@ -1,1 +1,1 @@
-docs: document all parameters
+test: verify all branches
