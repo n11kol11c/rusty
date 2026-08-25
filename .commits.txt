@@ -1,1 +1,1 @@
-chore: update coding standards
+refactor: extract validation logic
