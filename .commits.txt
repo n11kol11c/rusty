@@ -1,1 +1,1 @@
-docs: add detailed explanations
+test: ensure consistent state
