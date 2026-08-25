@@ -1,1 +1,1 @@
-test: validate response format
+fix: handle partial failures
