@@ -1,1 +1,1 @@
-perf: streamline hot path
+chore: refresh build artifacts
