@@ -1,1 +1,1 @@
-style: apply consistent formatting
+docs: add architecture decision records
