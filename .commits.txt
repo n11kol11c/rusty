@@ -1,1 +1,1 @@
-style: adjust indentation
+docs: improve inline documentation
