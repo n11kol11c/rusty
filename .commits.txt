@@ -1,1 +1,1 @@
-docs: document return value
+test: add stress test case
