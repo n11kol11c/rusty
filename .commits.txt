@@ -1,1 +1,1 @@
-refactor: reorganize helper functions
+style: adjust indentation
