@@ -1,1 +1,1 @@
-docs: document known issues
+test: verify all code paths
