@@ -1,1 +1,1 @@
-refactor: separate concerns
+fix: correct array slicing
