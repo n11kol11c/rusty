@@ -1,1 +1,1 @@
-fix: handle closed connections
+perf: implement request batching
