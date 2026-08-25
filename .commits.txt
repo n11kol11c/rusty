@@ -1,1 +1,1 @@
-test: validate serialization round-trip
+fix: handle network failures
