@@ -1,1 +1,1 @@
-docs: document known limitations
+test: ensure backward compatibility
