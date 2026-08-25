@@ -1,1 +1,1 @@
-chore: update CI matrix
+refactor: extract shared logic
