@@ -1,1 +1,1 @@
-fix: handle resource exhaustion
+perf: reduce thread contention
