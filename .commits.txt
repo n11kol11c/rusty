@@ -1,1 +1,1 @@
-docs: document all edge cases
+test: verify all states
