@@ -1,1 +1,1 @@
-fix: resolve memory leak potential
+perf: streamline hot path
