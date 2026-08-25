@@ -1,1 +1,1 @@
-refactor: decompose large method
+fix: correct edge case logic
