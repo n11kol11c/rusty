@@ -1,1 +1,1 @@
-test: ensure data integrity
+fix: handle signal masks
