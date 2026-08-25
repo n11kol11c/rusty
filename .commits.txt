@@ -1,1 +1,1 @@
-chore: sync across branches
+refactor: simplify configuration loading
