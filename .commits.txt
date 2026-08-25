@@ -1,1 +1,1 @@
-fix: handle buffer overflow
+perf: optimize allocation patterns
