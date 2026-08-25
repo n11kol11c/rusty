@@ -1,1 +1,1 @@
-test: verify all code paths
+fix: handle partial writes
