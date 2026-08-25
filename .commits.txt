@@ -1,1 +1,1 @@
-docs: document configuration options
+test: verify concurrent access
