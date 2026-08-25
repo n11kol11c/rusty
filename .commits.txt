@@ -1,1 +1,1 @@
-fix: handle edge case crashes
+perf: optimize memory layout
