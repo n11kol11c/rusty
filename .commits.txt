@@ -1,1 +1,1 @@
-style: use clear naming
+docs: document all edge cases
