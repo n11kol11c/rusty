@@ -1,1 +1,1 @@
-refactor: simplify initialization
+fix: correct checksum computation
