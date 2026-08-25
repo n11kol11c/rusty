@@ -1,1 +1,1 @@
-test: verify error messages
+fix: handle network timeout
