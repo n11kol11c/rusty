@@ -1,1 +1,1 @@
-docs: expand API reference
+test: validate state transitions
