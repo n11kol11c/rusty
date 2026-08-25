@@ -1,1 +1,1 @@
-test: check cross-platform behavior
+fix: handle invalid UTF-8
