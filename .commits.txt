@@ -1,1 +1,1 @@
-fix: handle empty collections
+perf: skip unnecessary validation
