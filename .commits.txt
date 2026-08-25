@@ -1,1 +1,1 @@
-fix: handle signal interruption
+perf: minimize I/O operations
