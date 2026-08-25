@@ -1,1 +1,1 @@
-refactor: simplify iteration logic
+fix: correct bit shifting
