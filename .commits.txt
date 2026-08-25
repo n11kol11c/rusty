@@ -1,1 +1,1 @@
-docs: document all options
+test: verify all error codes
