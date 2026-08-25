@@ -1,1 +1,1 @@
-fix: handle division by zero
+perf: early-exit on simple cases
