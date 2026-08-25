@@ -1,1 +1,1 @@
-chore: update dependency pins
+refactor: flatten nested conditionals
