@@ -1,1 +1,1 @@
-style: use consistent quotes
+docs: document all options
