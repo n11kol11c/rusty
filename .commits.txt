@@ -1,1 +1,1 @@
-refactor: flatten nested conditionals
+fix: correct modulo arithmetic
