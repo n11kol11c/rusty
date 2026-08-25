@@ -1,1 +1,1 @@
-refactor: consolidate error handling
+fix: correct hash computation
