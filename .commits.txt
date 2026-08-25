@@ -1,1 +1,1 @@
-fix: correct octal parsing
+style: apply consistent formatting
