@@ -1,1 +1,1 @@
-docs: update migration guide
+test: check error propagation
