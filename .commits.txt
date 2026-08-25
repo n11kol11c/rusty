@@ -1,1 +1,1 @@
-fix: handle partial failures
+perf: implement caching strategy
