@@ -1,1 +1,1 @@
-test: confirm thread safety
+fix: prevent double-free scenario
