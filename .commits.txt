@@ -1,1 +1,1 @@
-docs: document performance tips
+test: verify atomicity
