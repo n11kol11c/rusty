@@ -1,1 +1,1 @@
-chore: update project layout
+refactor: simplify concurrency model
