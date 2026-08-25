@@ -1,1 +1,1 @@
-fix: prevent double-free scenario
+perf: batch operations together
