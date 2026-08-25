@@ -1,1 +1,1 @@
-docs: add quick reference
+test: check cross-platform behavior
