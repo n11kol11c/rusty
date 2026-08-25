@@ -1,1 +1,1 @@
-perf: minimize context switching
+chore: refresh example code
