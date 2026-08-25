@@ -1,1 +1,1 @@
-docs: add quickstart guide
+test: confirm thread safety
