@@ -1,1 +1,1 @@
-chore: update build config
+refactor: consolidate error handling
