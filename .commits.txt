@@ -1,1 +1,1 @@
-test: ensure idempotent behavior
+fix: handle division by zero
