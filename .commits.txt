@@ -1,1 +1,1 @@
-style: use type hints consistently
+docs: document performance characteristics
