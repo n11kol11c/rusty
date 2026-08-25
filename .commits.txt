@@ -1,1 +1,1 @@
-docs: add architecture decision records
+test: ensure consistent behavior
