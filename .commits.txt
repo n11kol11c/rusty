@@ -1,1 +1,1 @@
-style: use consistent variable naming
+docs: expand API reference
