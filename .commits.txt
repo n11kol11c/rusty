@@ -1,1 +1,1 @@
-docs: add architecture overview
+test: validate JSON structure
