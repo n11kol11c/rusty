@@ -1,1 +1,1 @@
-docs: add performance metrics
+test: ensure data integrity
