@@ -1,1 +1,1 @@
-chore: update issue tracker
+refactor: simplify state management
