@@ -1,1 +1,1 @@
-refactor: replace magic numbers
+fix: correct string interpolation
