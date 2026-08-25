@@ -1,1 +1,1 @@
-chore: update toolchain version
+refactor: consolidate error types
