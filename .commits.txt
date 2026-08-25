@@ -1,1 +1,1 @@
-docs: add inline examples
+test: check memory usage
