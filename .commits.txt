@@ -1,1 +1,1 @@
-fix: correct overflow handling
+style: use clear variable names
