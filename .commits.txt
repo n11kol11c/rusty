@@ -1,1 +1,1 @@
-style: use consistent format
+docs: document performance tips
