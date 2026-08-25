@@ -1,1 +1,1 @@
-style: use consistent naming
+docs: document trade-offs
