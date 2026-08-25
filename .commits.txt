@@ -1,1 +1,1 @@
-refactor: consolidate shared utilities
+fix: correct hash computation
