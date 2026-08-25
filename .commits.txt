@@ -1,1 +1,1 @@
-refactor: consolidate type definitions
+fix: correct overflow detection
