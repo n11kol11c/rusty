@@ -1,1 +1,1 @@
-docs: add contributing guidelines
+test: verify concurrency model
