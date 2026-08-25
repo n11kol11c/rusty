@@ -1,1 +1,1 @@
-refactor: reduce cognitive complexity
+fix: correct padding logic
