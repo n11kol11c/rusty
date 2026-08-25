@@ -1,1 +1,1 @@
-style: apply consistent alignment
+docs: add quick reference
