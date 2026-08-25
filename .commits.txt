@@ -1,1 +1,1 @@
-perf: minimize overhead
+chore: update internal docs
