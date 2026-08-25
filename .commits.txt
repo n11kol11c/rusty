@@ -1,1 +1,1 @@
-chore: refresh example projects
+refactor: consolidate shared code
