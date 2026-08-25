@@ -1,1 +1,1 @@
-chore: update project docs
+refactor: clean up helper functions
