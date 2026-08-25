@@ -1,1 +1,1 @@
-style: align multiline expressions
+docs: update code samples
