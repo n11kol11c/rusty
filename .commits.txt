@@ -1,1 +1,1 @@
-test: verify concurrency model
+fix: handle broken pipe
