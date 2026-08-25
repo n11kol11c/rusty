@@ -1,1 +1,1 @@
-docs: document API contracts
+test: validate response format
