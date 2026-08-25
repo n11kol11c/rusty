@@ -1,1 +1,1 @@
-style: use clear variable names
+docs: document API contracts
