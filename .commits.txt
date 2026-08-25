@@ -1,1 +1,1 @@
-test: cover negative values
+fix: handle out-of-range input
