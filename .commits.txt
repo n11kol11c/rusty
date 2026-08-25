@@ -1,1 +1,1 @@
-style: apply consistent casing
+docs: add troubleshooting tips
