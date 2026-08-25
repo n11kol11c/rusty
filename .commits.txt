@@ -1,1 +1,1 @@
-perf: early-exit on simple cases
+chore: refresh documentation
