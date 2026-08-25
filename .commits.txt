@@ -1,1 +1,1 @@
-style: apply consistent wrapping
+docs: add performance guide
