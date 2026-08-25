@@ -1,1 +1,1 @@
-docs: document edge cases
+test: verify error messages
