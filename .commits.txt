@@ -1,1 +1,1 @@
-test: ensure deterministic output
+fix: handle signal masks
