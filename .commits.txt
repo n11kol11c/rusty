@@ -1,1 +1,1 @@
-docs: add detailed examples
+test: confirm error recovery
