@@ -1,1 +1,1 @@
-refactor: simplify retry logic
+fix: correct modular arithmetic
