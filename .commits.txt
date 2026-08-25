@@ -1,1 +1,1 @@
-perf: reduce redundant computation
+chore: update copyright year
