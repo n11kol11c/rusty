@@ -1,1 +1,1 @@
-docs: add comprehensive examples
+test: ensure safe shutdown
