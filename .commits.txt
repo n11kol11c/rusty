@@ -1,1 +1,1 @@
-style: consistent brace placement
+docs: document known issues
