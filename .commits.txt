@@ -1,1 +1,1 @@
-refactor: simplify state management
+fix: correct bit masking
