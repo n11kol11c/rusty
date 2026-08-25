@@ -1,1 +1,1 @@
-style: align bracket style
+docs: add usage example
