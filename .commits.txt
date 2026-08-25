@@ -1,1 +1,1 @@
-chore: regenerate lockfile
+refactor: move utility to shared module
