@@ -1,1 +1,1 @@
-fix: handle malformed input
+perf: optimize serialization
