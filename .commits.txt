@@ -1,1 +1,1 @@
-fix: handle signal interrupts
+perf: minimize lock hold time
