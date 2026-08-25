@@ -1,1 +1,1 @@
-chore: update external references
+refactor: consolidate error paths
