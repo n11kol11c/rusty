@@ -1,1 +1,1 @@
-style: consistent comment style
+docs: add contributing guidelines
