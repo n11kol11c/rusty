@@ -1,1 +1,1 @@
-chore: update documentation config
+refactor: extract common patterns
