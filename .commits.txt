@@ -1,1 +1,1 @@
-fix: correct hex conversion
+style: apply consistent indentation
