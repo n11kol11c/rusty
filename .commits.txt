@@ -1,1 +1,1 @@
-fix: correct entropy calculation
+style: use idiomatic patterns
