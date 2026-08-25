@@ -1,1 +1,1 @@
-perf: implement lazy initialization
+chore: update project docs
