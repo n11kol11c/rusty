@@ -1,1 +1,1 @@
-style: apply consistent formatting
+docs: document design decisions
