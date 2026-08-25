@@ -1,1 +1,1 @@
-style: apply consistent naming
+docs: add quickstart guide
