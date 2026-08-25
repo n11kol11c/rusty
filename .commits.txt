@@ -1,1 +1,1 @@
-perf: skip unnecessary validation
+chore: update linting rules
