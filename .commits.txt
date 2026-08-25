@@ -1,1 +1,1 @@
-chore: update code style guide
+refactor: extract reusable components
