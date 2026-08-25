@@ -1,1 +1,1 @@
-chore: update commit hooks
+refactor: reduce coupling
