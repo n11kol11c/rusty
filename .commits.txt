@@ -1,1 +1,1 @@
-chore: update copyright year
+refactor: simplify control flow
