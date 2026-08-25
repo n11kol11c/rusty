@@ -1,1 +1,1 @@
-chore: update project structure docs
+refactor: simplify iteration logic
