@@ -1,1 +1,1 @@
-fix: correct overflow detection
+style: use meaningful names
