@@ -1,1 +1,1 @@
-refactor: extract shared logic
+fix: correct offset calculation
