@@ -1,1 +1,1 @@
-test: verify concurrent access
+fix: handle unexpected exceptions
