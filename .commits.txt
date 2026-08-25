@@ -1,1 +1,1 @@
-refactor: clean up helper functions
+fix: correct nested loop logic
