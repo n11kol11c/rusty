@@ -1,1 +1,1 @@
-docs: add comprehensive guides
+test: check state persistence
