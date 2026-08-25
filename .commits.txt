@@ -1,1 +1,1 @@
-fix: handle concurrent writes
+perf: reuse allocated buffers
