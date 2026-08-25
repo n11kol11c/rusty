@@ -1,1 +1,1 @@
-refactor: extract configuration
+fix: correct array indexing
