@@ -1,1 +1,1 @@
-test: confirm error recovery
+fix: handle closed connections
