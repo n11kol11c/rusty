@@ -1,1 +1,1 @@
-chore: update internal references
+refactor: reorganize helper functions
