@@ -1,1 +1,1 @@
-chore: update internal docs
+refactor: consolidate shared logic
