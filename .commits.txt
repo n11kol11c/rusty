@@ -1,1 +1,1 @@
-chore: update documentation template
+refactor: simplify initialization
