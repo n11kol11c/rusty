@@ -1,1 +1,1 @@
-style: use consistent spacing
+docs: document all features
