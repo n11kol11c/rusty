@@ -1,1 +1,1 @@
-style: use meaningful names
+docs: document system requirements
