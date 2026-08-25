@@ -1,1 +1,1 @@
-perf: use efficient serialization
+chore: refresh example projects
