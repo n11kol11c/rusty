@@ -1,1 +1,1 @@
-style: use descriptive names
+docs: document edge cases
