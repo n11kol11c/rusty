@@ -1,1 +1,1 @@
-fix: correct rounding behavior
+style: apply consistent casing
