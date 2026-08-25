@@ -1,1 +1,1 @@
-refactor: reduce coupling
+fix: correct entropy calculation
