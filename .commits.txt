@@ -1,1 +1,1 @@
-test: ensure proper cleanup
+fix: handle corrupt data gracefully
