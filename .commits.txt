@@ -1,1 +1,1 @@
-docs: improve inline documentation
+test: add edge case coverage
