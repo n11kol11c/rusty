@@ -1,1 +1,1 @@
-test: add edge case coverage
+fix: handle empty input gracefully
