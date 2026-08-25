@@ -1,1 +1,1 @@
-chore: update release process
+refactor: simplify retry logic
