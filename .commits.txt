@@ -1,1 +1,1 @@
-test: verify all scenarios
+fix: handle resource cleanup
