@@ -1,1 +1,1 @@
-test: verify all branches
+fix: handle signal interrupts
