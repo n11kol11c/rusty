@@ -1,1 +1,1 @@
-chore: update quality gates
+refactor: consolidate type definitions
