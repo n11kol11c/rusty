@@ -1,1 +1,1 @@
-docs: update installation instructions
+test: ensure proper cleanup
