@@ -1,1 +1,1 @@
-test: ensure proper initialization
+fix: handle edge case crashes
