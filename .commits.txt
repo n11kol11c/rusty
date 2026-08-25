@@ -1,1 +1,1 @@
-style: consistent formatting
+docs: clarify parameter description
