@@ -1,1 +1,1 @@
-perf: optimize critical section
+chore: update project structure docs
