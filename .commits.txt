@@ -1,1 +1,1 @@
-perf: reduce function call overhead
+chore: update changelog
