@@ -1,1 +1,1 @@
-style: apply consistent indentation
+docs: add comprehensive guides
