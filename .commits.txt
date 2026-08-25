@@ -1,1 +1,1 @@
-style: use idiomatic patterns
+docs: add performance benchmarks
