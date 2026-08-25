@@ -1,1 +1,1 @@
-chore: bump internal version
+refactor: modularize complex function
