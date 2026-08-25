@@ -1,1 +1,1 @@
-chore: update linting rules
+refactor: flatten callback hell
