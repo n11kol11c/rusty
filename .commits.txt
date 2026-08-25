@@ -1,1 +1,1 @@
-test: verify atomicity
+fix: handle signal handling
