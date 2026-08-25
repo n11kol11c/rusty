@@ -1,1 +1,1 @@
-style: enforce line length
+docs: document known limitations
