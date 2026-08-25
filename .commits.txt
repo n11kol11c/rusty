@@ -1,1 +1,1 @@
-refactor: consolidate error paths
+fix: correct string comparison
