@@ -1,1 +1,1 @@
-chore: clean up temp files
+refactor: extract configuration
