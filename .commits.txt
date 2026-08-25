@@ -1,1 +1,1 @@
-chore: sync configuration files
+refactor: consolidate duplicate code
