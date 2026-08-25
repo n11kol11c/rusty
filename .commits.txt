@@ -1,1 +1,1 @@
-test: ensure backward compatibility
+fix: handle special characters
