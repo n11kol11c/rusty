@@ -1,1 +1,1 @@
-refactor: consolidate error types
+fix: correct string encoding
