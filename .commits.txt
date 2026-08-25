@@ -1,1 +1,1 @@
-docs: document design decisions
+test: check edge case robustness
