@@ -1,1 +1,1 @@
-refactor: extract constants
+fix: correct boolean logic
