@@ -1,1 +1,1 @@
-style: consistent comment style
+docs: document all parameters
