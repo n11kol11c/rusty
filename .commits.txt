@@ -1,1 +1,1 @@
-test: check state persistence
+fix: handle null bytes
