@@ -1,1 +1,1 @@
-perf: minimize lock hold time
+chore: update release process
