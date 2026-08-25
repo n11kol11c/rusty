@@ -1,1 +1,1 @@
-docs: document system requirements
+test: validate serialization round-trip
