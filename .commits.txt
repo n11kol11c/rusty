@@ -1,1 +1,1 @@
-docs: document performance characteristics
+test: ensure idempotent behavior
