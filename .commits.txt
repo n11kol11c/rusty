@@ -1,1 +1,1 @@
-style: standardize comments
+docs: improve README clarity
