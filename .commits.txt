@@ -1,1 +1,1 @@
-style: apply consistent style
+docs: add inline examples
