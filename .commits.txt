@@ -1,1 +1,1 @@
-docs: add troubleshooting section
+test: verify output correctness
