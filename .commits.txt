@@ -1,1 +1,1 @@
-refactor: flatten callback hell
+fix: correct decimal precision
