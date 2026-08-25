@@ -1,1 +1,1 @@
-style: normalize spacing
+docs: expand API documentation
