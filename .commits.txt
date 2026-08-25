@@ -1,1 +1,1 @@
-fix: prevent potential index error
+perf: reduce redundant computation
