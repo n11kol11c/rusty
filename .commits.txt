@@ -1,1 +1,1 @@
-test: validate config parsing
+fix: handle concurrent writes
