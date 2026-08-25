@@ -1,1 +1,1 @@
-perf: parallelize independent work
+chore: refresh CI configuration
