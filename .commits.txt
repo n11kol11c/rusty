@@ -1,1 +1,1 @@
-chore: update changelog
+refactor: simplify error handling
