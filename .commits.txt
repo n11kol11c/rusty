@@ -1,1 +1,1 @@
-fix: handle truncated input
+perf: optimize string building
