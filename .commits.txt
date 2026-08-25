@@ -1,1 +1,1 @@
-test: ensure proper error handling
+fix: handle invalid state
