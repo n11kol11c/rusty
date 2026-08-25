@@ -1,1 +1,1 @@
-docs: improve readability
+test: validate output format
