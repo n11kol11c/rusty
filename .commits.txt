@@ -1,1 +1,1 @@
-test: add stress test case
+fix: resolve memory leak potential
