@@ -1,1 +1,1 @@
-style: consistent whitespace
+docs: add architecture overview
