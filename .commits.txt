@@ -1,1 +1,1 @@
-fix: handle network timeout
+perf: defer expensive setup
