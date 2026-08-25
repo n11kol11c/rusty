@@ -1,0 +1,161 @@
+"""Cursor and SeekFrom — in-memory I/O with seek support."""
+from __future__ import annotations
+
+"""Cursor and SeekFrom — in-memory I/O cursor.
+
+Provides Cursor[T] for in-memory Read+Write+Seek operations and
+SeekFrom for specifying seek positions (Start, Current, End).
+"""
+
+from typing import Any, Generic, TypeVar
+
+T = TypeVar("T")
+
+
+class SeekFrom:
+    __slots__ = ("_kind", "_offset")
+
+    START = 0
+    CURRENT = 1
+    END = 2
+
+    def __init__(self, kind: int, offset: int) -> None:
+        self._kind = kind
+        self._offset = offset
+
+    @classmethod
+    def start(cls, offset: int = 0) -> SeekFrom:
+        return cls(cls.START, offset)
+
+    @classmethod
+    def current(cls, offset: int = 0) -> SeekFrom:
+        return cls(cls.CURRENT, offset)
+
+    @classmethod
+    def end(cls, offset: int = 0) -> SeekFrom:
+        return cls(cls.END, offset)
+
+    def kind(self) -> int:
+        return self._kind
+
+    def offset(self) -> int:
+        return self._offset
+
+    def __repr__(self) -> str:
+        if self._kind == self.START:
+            return f"SeekFrom::Start({self._offset})"
+        if self._kind == self.CURRENT:
+            return f"SeekFrom::Current({self._offset})"
+        return f"SeekFrom::End({self._offset})"
+
+
+class Cursor(Generic[T]):
+    __slots__ = ("_data", "_pos")
+
+    def __init__(self, data: T) -> None:
+        if isinstance(data, (bytes, bytearray)):
+            self._data = bytearray(data)
+        elif isinstance(data, str):
+            self._data = bytearray(data.encode("utf-8"))
+        elif isinstance(data, list):
+            self._data = bytearray(data)
+        else:
+            self._data = bytearray(data)
+        self._pos = 0
+
+    @classmethod
+    def new(cls, data: T) -> Cursor[T]:  # type: ignore
+        return cls(data)
+
+    def inner(self) -> T:
+        return self._data  # type: ignore
+
+    def into_inner(self) -> T:  # type: ignore
+        return self._data  # type: ignore
+
+    def get_ref(self) -> Any:  # type: ignore
+        return self._data  # type: ignore
+
+    def get_mut(self) -> Any:  # type: ignore
+        return self._data  # type: ignore
+
+    def position(self) -> int:
+        return self._pos
+
+    def set_position(self, pos: int) -> None:  # type: ignore
+        self._pos = pos
+
+    def position_mut(self) -> int:  # type: ignore
+        return self._pos  # type: ignore
+
+    def into_inner(self) -> T:
+        return self._data  # type: ignore
+
+    def read(self, buf: bytearray) -> int:  # type: ignore
+        available = len(self._data) - self._pos
+        if available <= 0:
+            return 0
+        n = min(len(buf), available)
+        buf[:n] = self._data[self._pos:self._pos + n]
+        self._pos += n
+        return n
+
+    def write(self, data: bytes | bytearray | str) -> int:  # type: ignore
+        if isinstance(data, str):
+            data = data.encode("utf-8")
+        end = self._pos + len(data)
+        if end > len(self._data):
+            self._data.extend(b"\x00" * (end - len(self._data)))
+        self._data[self._pos:end] = data
+        self._pos += len(data)
+        return len(data)
+
+    def flush(self) -> None:  # type: ignore
+        pass
+
+    def seek(self, style: SeekFrom) -> int:  # type: ignore
+        if style._kind == SeekFrom.START:
+            self._pos = style._offset
+        elif style._kind == SeekFrom.CURRENT:
+            self._pos += style._offset
+        elif style._kind == SeekFrom.END:
+            self._pos = len(self._data) + style._offset
+        self._pos = max(0, min(self._pos, len(self._data)))
+        return self._pos
+
+    def fill_buf(self) -> bytes:  # type: ignore
+        return bytes(self._data[self._pos:])
+
+    def consume(self, amt: int) -> None:  # type: ignore
+        self._pos = min(self._pos + amt, len(self._data))
+
+    def has_consumed(self) -> bool:  # type: ignore
+        return self._pos >= len(self._data)
+
+    def read_until(self, byte: int) -> bytes:  # type: ignore
+        chunk = self.fill_buf()
+        idx = chunk.find(bytes([byte]))
+        if idx >= 0:
+            result = chunk[:idx + 1]
+            self.consume(idx + 1)
+            return result
+        self.consume(len(chunk))
+        return chunk
+
+    def read_line(self) -> str:  # type: ignore
+        return self.read_until(ord("\n")).decode("utf-8")
+
+    def remaining(self) -> int:
+        return max(0, len(self._data) - self._pos)
+
+    def is_empty(self) -> bool:
+        return self._pos >= len(self._data)
+
+    def __len__(self) -> int:
+        return len(self._data)
+
+    def __bool__(self) -> bool:
+        return not self.is_empty()
+
+    def __repr__(self) -> str:
+        return f"Cursor(pos={self._pos}, len={len(self._data)})"
