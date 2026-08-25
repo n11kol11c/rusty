@@ -1,1 +1,1 @@
-refactor: simplify control flow
+fix: address race condition edge case
