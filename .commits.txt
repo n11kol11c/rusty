@@ -1,1 +1,1 @@
-docs: document trade-offs
+test: verify rollback behavior
