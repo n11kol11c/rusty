@@ -1,1 +1,1 @@
-refactor: simplify recursive function
+fix: correct modulo wraparound
