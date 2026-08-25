@@ -1,1 +1,1 @@
-refactor: simplify state transitions
+fix: correct integer overflow
