@@ -1,1 +1,1 @@
-chore: update CI/CD pipeline
+refactor: simplify state transitions
