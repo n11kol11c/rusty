@@ -1,1 +1,1 @@
-chore: clean up unused imports
+refactor: extract repeated pattern
