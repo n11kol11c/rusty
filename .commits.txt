@@ -1,1 +1,1 @@
-fix: handle concurrent access safely
+perf: cache repeated calculations
