@@ -1,1 +1,1 @@
-chore: update release notes
+refactor: reduce cognitive complexity
