@@ -1,1 +1,1 @@
-test: ensure consistent state
+fix: handle resource limits
