@@ -1,1 +1,1 @@
-fix: handle partial writes
+perf: minimize context switching
