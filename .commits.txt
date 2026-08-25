@@ -1,1 +1,1 @@
-test: validate JSON structure
+fix: handle truncated input
