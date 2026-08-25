@@ -1,1 +1,1 @@
-test: ensure safe shutdown
+fix: handle resource exhaustion
