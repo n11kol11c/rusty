@@ -1,1 +1,1 @@
-refactor: extract validation logic
+fix: correct pointer arithmetic
