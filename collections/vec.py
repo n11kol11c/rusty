@@ -8,7 +8,7 @@ iter, and Python list protocol support.
 
 from typing import Any, Callable, Generic, Iterable, Iterator, TypeVar, overload
 
-from rusty.core.option import Option, Some, None_
+from ..core.option import Option, Some, None_
 
 T = TypeVar("T")
 

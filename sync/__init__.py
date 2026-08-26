@@ -6,15 +6,15 @@ Provides Atomic types, Mutex, RwLock, Barrier, Condvar, Channel (MPSC),
 Once, and Semaphore for safe multi-threaded coordination.
 """
 
-from rusty.sync.atomic import Atomic, AtomicBool, AtomicInt
-from rusty.sync.mutex import Mutex, MutexGuard
-from rusty.sync.rwlock import RwLock, RwLockReadGuard, RwLockWriteGuard
-from rusty.sync.arc import Arc
-from rusty.sync.barrier import Barrier
-from rusty.sync.condvar import Condvar
-from rusty.sync.channel import Channel, Sender, Receiver
-from rusty.sync.once import Once
-from rusty.sync.semaphore import Semaphore
+from .atomic import Atomic, AtomicBool, AtomicInt
+from .mutex import Mutex, MutexGuard
+from .rwlock import RwLock, RwLockReadGuard, RwLockWriteGuard
+from .arc import Arc
+from .barrier import Barrier
+from .condvar import Condvar
+from .channel import Channel, Sender, Receiver
+from .once import Once
+from .semaphore import Semaphore
 
 __all__ = [
     "Atomic",

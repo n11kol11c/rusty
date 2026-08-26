@@ -16,7 +16,7 @@ from typing import (
     TypeVar,
 )
 
-from rusty.iter.adapters import (
+from .adapters import (
     Chain,
     Cloned,
     Copied,
@@ -34,7 +34,7 @@ from rusty.iter.adapters import (
     Take,
     Zip,
 )
-from rusty.iter.iterator import Iter, PeekableIter
+from .iterator import Iter, PeekableIter
 
 T = TypeVar("T")
 U = TypeVar("U")

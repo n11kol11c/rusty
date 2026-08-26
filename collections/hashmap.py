@@ -8,7 +8,7 @@ efficient in-place manipulation of map entries.
 
 from typing import Callable, Generic, Iterable, Iterator, TypeVar
 
-from rusty.core.option import Option, Some, None_
+from ..core.option import Option, Some, None_
 
 K = TypeVar("K")
 V = TypeVar("V")

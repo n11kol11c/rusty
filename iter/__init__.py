@@ -7,7 +7,7 @@ Provides the core Iter type, 18 iterator adapters (Enumerate, Zip, Map,
 Filter, etc.), and consumer functions for processing iterables.
 """
 
-from rusty.iter.iterator import (
+from .iterator import (
     Iter,
     PeekableIter,
     Range,
@@ -22,7 +22,7 @@ from rusty.iter.iterator import (
     range_to,
     range_to_inclusive,
 )
-from rusty.iter.adapters import (
+from .adapters import (
     Chain,
     Cloned,
     Copied,
@@ -60,7 +60,7 @@ from rusty.iter.adapters import (
     _FuseIterator,
     Fuse,
 )
-from rusty.iter.consumers import (
+from .consumers import (
     all,
     any,
     chain,
