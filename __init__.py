@@ -17,15 +17,15 @@ from .core.convert import (
 )
 from .core.error import Error, Backtrace, Location, context
 
-from .collections.vec import Vec
-from .collections.hashmap import HashMap, Entry, OccupiedEntry, VacantEntry
-from .collections.hashset import HashSet
-from .collections.btreemap import BTreeMap
-from .collections.btreeset import BTreeSet
-from .collections.vecdeque import VecDeque
-from .collections.binary_heap import BinaryHeap
-from .collections.linked_list import LinkedList
-from .collections.extra import Drain, IntoIter, Slice
+from ._collections.vec import Vec
+from ._collections.hashmap import HashMap, Entry, OccupiedEntry, VacantEntry
+from ._collections.hashset import HashSet
+from ._collections.btreemap import BTreeMap
+from ._collections.btreeset import BTreeSet
+from ._collections.vecdeque import VecDeque
+from ._collections.binary_heap import BinaryHeap
+from ._collections.linked_list import LinkedList
+from ._collections.extra import Drain, IntoIter, Slice
 
 from .iter.iterator import Iter
 from .iter.adapters import (
@@ -56,14 +56,14 @@ from .sync.channel import Channel, Sender, Receiver
 from .sync.once import Once
 from .sync.semaphore import Semaphore
 
-from .time.duration import Duration, UNIX_EPOCH, Elapsed
-from .time.instant import Instant
-from .time.system_time import SystemTime
+from ._time.duration import Duration, UNIX_EPOCH, Elapsed
+from ._time.instant import Instant
+from ._time.system_time import SystemTime
 
-from .io.read import Read, BufRead
-from .io.write import Write
-from .io.buffered import BufReader, BufWriter
-from .io.cursor import Cursor, SeekFrom
+from ._io.read import Read, BufRead
+from ._io.write import Write
+from ._io.buffered import BufReader, BufWriter
+from ._io.cursor import Cursor, SeekFrom
 
 from .fs.path import Path, PathBuf
 from .fs.file import OpenOptions, File

@@ -171,11 +171,11 @@ class Result(Generic[T, E]):
         return f"Err({self.error!r})"
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class Ok(Result[T, NoReturn]):
     value: T
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class Err(Result[NoReturn, E]):
     error: E
 

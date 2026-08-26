@@ -739,7 +739,7 @@ class Drain(Generic[T]):
         return f"Drain(remaining={len(self._source) - self._index})"
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class CreateMeta:
     libname: str
     libversion: tuple[int, int]

@@ -14,7 +14,7 @@ T = TypeVar("T")
 U = TypeVar("U")
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class Cow(Generic[T]):
     _Borrowed: ClassVar[type]
     _Owned: ClassVar[type]
@@ -64,12 +64,12 @@ class Cow(Generic[T]):
         return hash(self.as_ref())
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class _CowBorrowed(Cow[T]):
     _data: T
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class _CowOwned(Cow[T]):
     _data: T
 

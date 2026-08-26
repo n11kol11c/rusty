@@ -111,7 +111,7 @@ class Metadata:
     def modified(self) -> SystemTime | None:
         if self._modified is None:
             return None
-        from .time.system_time import SystemTime
+        from ._time.system_time import SystemTime
         t = SystemTime.__new__(SystemTime)
         t._seconds = int(self._modified)
         t._nanos = int((self._modified % 1) * 1_000_000_000)
@@ -121,7 +121,7 @@ class Metadata:
     def accessed(self) -> SystemTime | None:
         if self._accessed is None:
             return None
-        from .time.system_time import SystemTime
+        from ._time.system_time import SystemTime
         t = SystemTime.__new__(SystemTime)
         t._seconds = int(self._accessed)
         t._nanos = int((self._accessed % 1) * 1_000_000_000)
@@ -131,7 +131,7 @@ class Metadata:
     def created(self) -> SystemTime | None:
         if self._created is None:
             return None
-        from .time.system_time import SystemTime
+        from ._time.system_time import SystemTime
         t = SystemTime.__new__(SystemTime)
         t._seconds = int(self._created)
         t._nanos = int((self._created % 1) * 1_000_000_000)

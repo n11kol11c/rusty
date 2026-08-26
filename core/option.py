@@ -135,7 +135,7 @@ class Option(Generic[T]):
         return "None"
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class Some(Option[T]):
     value: T
 
