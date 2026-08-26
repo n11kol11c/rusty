@@ -100,6 +100,39 @@ class Ref(Generic[T]):
     def __exit__(self, *_: Any) -> None:
         self.release()
 
+    def __eq__(self, other: Any) -> bool:
+        return self._cell._value == other
+
+    def __ne__(self, other: Any) -> bool:
+        return self._cell._value != other
+
+    def __lt__(self, other: Any) -> bool:
+        return self._cell._value < other
+
+    def __le__(self, other: Any) -> bool:
+        return self._cell._value <= other
+
+    def __gt__(self, other: Any) -> bool:
+        return self._cell._value > other
+
+    def __ge__(self, other: Any) -> bool:
+        return self._cell._value >= other
+
+    def __hash__(self) -> int:
+        return hash(self._cell._value)
+
+    def __bool__(self) -> bool:
+        return bool(self._cell._value)
+
+    def __int__(self) -> int:
+        return int(self._cell._value)
+
+    def __float__(self) -> float:
+        return float(self._cell._value)
+
+    def __str__(self) -> str:
+        return str(self._cell._value)
+
     def __repr__(self) -> str:
         return f"Ref({self._cell._value!r})"
 
@@ -131,6 +164,39 @@ class RefMut(Generic[T]):
 
     def __exit__(self, *_: Any) -> None:
         self.release()
+
+    def __eq__(self, other: Any) -> bool:
+        return self._cell._value == other
+
+    def __ne__(self, other: Any) -> bool:
+        return self._cell._value != other
+
+    def __lt__(self, other: Any) -> bool:
+        return self._cell._value < other
+
+    def __le__(self, other: Any) -> bool:
+        return self._cell._value <= other
+
+    def __gt__(self, other: Any) -> bool:
+        return self._cell._value > other
+
+    def __ge__(self, other: Any) -> bool:
+        return self._cell._value >= other
+
+    def __hash__(self) -> int:
+        return hash(self._cell._value)
+
+    def __bool__(self) -> bool:
+        return bool(self._cell._value)
+
+    def __int__(self) -> int:
+        return int(self._cell._value)
+
+    def __float__(self) -> float:
+        return float(self._cell._value)
+
+    def __str__(self) -> str:
+        return str(self._cell._value)
 
     def __repr__(self) -> str:
         return f"RefMut({self._cell._value!r})"
