@@ -1,11 +1,11 @@
-"""Iterator types and adapters — Enumerate, Zip, Map, Filter, Peekable, and more."""
-from __future__ import annotations
+"""Iterator types and adapters: Iter, ranges, and 18 chainable transforms.
 
-"""Iterator types and adapters.
-
-Provides the core Iter type, 18 iterator adapters (Enumerate, Zip, Map,
-Filter, etc.), and consumer functions for processing iterables.
+Re-exports the core ``Iter`` type, the ``Range`` family and ``PeekableIter``,
+18 lazy iterator adapters (Enumerate, Zip, Map, Filter, Peekable, and more),
+and a set of standalone consumer and factory functions for processing
+iterables.
 """
+from __future__ import annotations
 
 from .iterator import (
     Iter,
