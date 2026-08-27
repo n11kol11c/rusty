@@ -1,3 +1,16 @@
+"""Curated imports of the most commonly used ``rusty`` types.
+
+Provides a convenient ``from rusty.prelude import *``-style entry point that
+re-exports the most frequently used types and functions, so code can avoid
+long import lists.
+
+Example:
+    >>> from rusty.prelude import Option, Vec, Result
+    >>> v = Vec([1, 2, 3])
+    >>> len(v)
+    3
+"""
+
 from __future__ import annotations
 
 from .core.option import Option, Some, NoneOption, None_, none
