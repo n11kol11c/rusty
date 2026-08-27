@@ -1,10 +1,12 @@
-"""Rust-inspired collection types — Vec, HashMap, HashSet, BTreeMap, and more."""
-from __future__ import annotations
-"""Rust-inspired collection types.
+"""Rust-inspired collection types — Vec, HashMap, HashSet, BTreeMap, and more.
 
-Provides Vec, HashMap, HashSet, BTreeMap, BTreeSet, VecDeque,
-BinaryHeap, LinkedList, and supporting types Drain, IntoIter, Slice.
+This package provides the public collection types of the ``rusty`` library,
+mirroring the standard collections of the Rust standard library: ``Vec``,
+``HashMap``, ``HashSet``, ``BTreeMap``, ``BTreeSet``, ``VecDeque``,
+``BinaryHeap``, and ``LinkedList``, plus supporting types ``Drain``,
+``IntoIter``, and ``Slice``.
 """
+from __future__ import annotations
 
 from .vec import Vec
 from .hashmap import HashMap, Entry, OccupiedEntry, VacantEntry
