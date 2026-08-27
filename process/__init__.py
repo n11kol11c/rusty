@@ -1,11 +1,9 @@
-"""Process management — Command, Child, ExitStatus, and OS utilities."""
-from __future__ import annotations
-
 """Process management — spawning and controlling processes.
 
 Provides Command, Child, Stdio, ExitStatus, Output, ExitCode,
 and OS utility functions.
 """
+from __future__ import annotations
 
 from .command import Command
 from .child import Child, Stdio
