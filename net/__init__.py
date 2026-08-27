@@ -1,11 +1,9 @@
-"""Networking — TCP, UDP, and IP address types."""
-from __future__ import annotations
-
-"""Networking — TCP, UDP, and address types.
+"""Networking — TCP, UDP, and IP address types.
 
 Provides TcpStream, TcpListener, UdpSocket, Ipv4Addr, Ipv6Addr,
 IpAddr, SocketAddr, and Shutdown.
 """
+from __future__ import annotations
 
 from .address import Ipv4Addr, Ipv6Addr, IpAddr, SocketAddr, Shutdown
 from .tcp import TcpStream, TcpListener, Incoming
