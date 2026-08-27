@@ -269,6 +269,10 @@ conn, peer = listener.accept()
 conn.write(b"hello")
 ```
 
+## API Reference
+
+For complete documentation of every class, function, and type, see [docs/API.md](docs/API.md).
+
 ## Philosophy
 
 `rusty` does not attempt to replicate Rust's compiler guarantees in Python — that's impossible without changing the language. Instead, it provides **idiomatic Python wrappers** around Rust's core patterns:
