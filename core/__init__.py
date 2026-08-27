@@ -1,11 +1,10 @@
-"""Core foundational types for the rusty library — Option, Result, Enum, traits, ranges, and errors."""
-from __future__ import annotations
-
 """Core foundational types for the rusty library.
 
 Provides algebraic types (Option, Result), tagged unions (Enum, Variant),
 trait protocols for duck-typed polymorphism, range types, and error infrastructure.
 """
+
+from __future__ import annotations
 
 from .error import Location, Backtrace, Error, context
 from .convert import (
